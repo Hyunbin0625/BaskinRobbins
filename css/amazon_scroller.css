@@ -33,7 +33,7 @@
     float: left;    
 }
 .amazon_scroller ul li:hover{
-    background-color: rgb(0, 162, 170);
+    /* background-color: rgb(0, 162, 170); */
 	opacity: .8;
 	transition: all 0.4s;
 } 
@@ -57,20 +57,33 @@
 }*/
 
 
-
 /* 좌우 롤링 버튼 */
-.roling_left {z-index: 1;
-	position: absolute;
-	top: 150px;
+.roling_left {
+    z-index: 1;
+    position: absolute;
+    top: 150px;
+
+    left: -40px; /* 위치 조정 */
+    width: 60px !important; /* 강제 적용 */
+    height: 60px !important; /* 강제 적용 */
+    background-size: contain !important;
+    cursor: pointer;
 }
 .roling_left:hover {
 	background:url('../img/roling_left_over.png') no-repeat 0 0;
 	transition:all 0.4s; z-index: 2;
 }
 
-.roling_right { z-index: 1;
-	position: absolute;
-	top: 150px; left: 1569px;
+.roling_right {
+    z-index: 1;
+    position: absolute;
+    top: 150px;
+	
+    left: 1560px; /* 위치 조정 */
+    width: 60px !important; /* 강제 적용 */
+    height: 60px !important; /* 강제 적용 */
+    background-size: contain !important;
+    cursor: pointer;
 }
 .roling_right:hover {
 	background:url('../img/roling_right_over.png') no-repeat 0 0;

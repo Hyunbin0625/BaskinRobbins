@@ -43,7 +43,7 @@
         var r=p&&p.scroller_show_count?p.scroller_show_count:"6";
         var d=p&&p.directory?p.directory:"images";
         j += "px";
-        k += "px";
+        k += "px";  
         m += "px";
         n += "px";
         o += "px";
